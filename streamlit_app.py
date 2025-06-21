@@ -26,8 +26,8 @@ genai.configure(api_key=api_key)
 # ========================
 # 2️⃣ File Size Limits
 # ========================
-MAX_TOTAL_SIZE_MB = 5
-MAX_FILE_SIZE_MB = 2
+MAX_TOTAL_SIZE_MB = 15
+MAX_FILE_SIZE_MB = 15
 
 def validate_file_sizes(uploaded_files):
     total_size = 0
